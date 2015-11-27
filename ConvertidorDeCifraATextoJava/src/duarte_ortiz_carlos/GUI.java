@@ -185,7 +185,7 @@ public class GUI extends javax.swing.JFrame {
             case 5:
                 // teenagers
                 if (valor >= 10000 && valor < 20000) {
-                    indice1 = Character.getNumericValue(valorCadena.charAt(0));
+                    indice1 = Character.getNumericValue(valorCadena.charAt(1));
                     resultado = teenagers[indice1] + " mil "
                             + convierteNumeroTexto(Integer.parseInt(valorCadena.substring(2)));
                     if (resultado.endsWith("cero")) {
